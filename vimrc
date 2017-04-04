@@ -13,6 +13,6 @@ filetype plugin indent on
 :nmap <F7> <C-w>>
 :imap [ []<ESC>i
 :imap ( ()<ESC>i
-:imap { {<ENTER><ENTER>}<ESC>kA<TAB>
+:imap {<ENTER> {<ENTER><ENTER>}<ESC>kA<TAB>
 let g:winManagerWindowLayout='FileExplorer'
 nmap wm :WMToggle<cr>
